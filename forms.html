@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form action="./submission.html" method="post">
+      <!-- text input -->
+      <label for="name">Name:</label>
+      <br />
+      <input type="text" id="name" name="name" required />
+      <br /><br />
+      <!-- email input -->
+      <label for="email">Email:</label>
+      <br />
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+      <!-- password input -->
+      <label for="password">Password:</label>
+      <br />
+      <input type="password" id="password" name="password" required />
+      <br /><br />
+      <!-- files input -->
+      <label for="file">File:</label>
+      <br />
+      <input type="file" id="file" name="file" />
+      <br /><br />
+      <!-- checkbox input -->
+      <label for="Choice">Meal Choice:</label>
+      <br />
+      <input type="checkbox" name="Choice" value="Pasta" /> Pasta
+      <input type="checkbox" name="Choice" value="Pizza" /> Pizza
+      <input type="checkbox" name="Choice" value="Burger" /> Burger <br /><br />
+      <!-- radio button -->
+      <label for="Choice">Drink Choice:</label>
+      <br />
+      <input type="radio" name="Choice" value="Coke" /> Coke
+      <input type="radio" name="Choice" value="Fanta" /> Fanta
+      <input type="radio" name="Choice" value="Pepsi" /> Pepsi
+      <input type="radio" name="Choice" value="Water" /> Water <br /><br />
+      <br />
+      <br />
+      <!-- select input -->
+      <label for="cars">Choose a car:</label>
+
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br /><br />
+      <!-- submit button -->
+      <button type="submit">Submit</button>
+      <!-- reset button -->
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
